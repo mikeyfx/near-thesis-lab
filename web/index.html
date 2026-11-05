@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>NEAR Thesis Lab · Research Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#top"><span class="brand-icon">N<span class="brand-dot">·</span></span><span>NEAR<span class="brand-soft">/</span>THESIS<span class="brand-soft">LAB</span></span></a>
+      <span class="side-section">WORKSPACE</span>
+      <a href="#overview" class="nav-item active"><span>◫</span> Overview</a>
+      <a href="#economics" class="nav-item"><span>◉</span> Protocol Economics</a>
+      <a href="#research" class="nav-item"><span>◈</span> Investment Thesis</a>
+      <a href="#methods" class="nav-item"><span>⌘</span> Data & Methodology</a>
+      <div class="sidebar-bottom"><div class="small-orb"></div><div><strong>Evidence-first research</strong><span>NEAR Hackathon 2026</span></div></div>
+    </aside>
+    <main id="top">
+      <header class="topbar"><span>RESEARCH TERMINAL <span class="slash">/</span> INVESTMENT THESIS</span><span class="top-right"><span class="pulse"></span> <span id="data-status">CHECKING SOURCES</span></span></header>
+      <section class="hero" id="overview">
+        <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> HACKATHON RESEARCH PROJECT • 2026</div>
+        <h1>Measure the network.<br/><em>Question the narrative.</em></h1>
+        <p>Is NEAR's cross-chain activity creating durable ecosystem adoption, or is growing volume telling only part of the story?</p>
+        <div class="hero-actions"><a href="#research" class="primary-btn">Explore the thesis <span>↗</span></a><a href="https://github.com/nearai/near-hackathon-prompt-examples/blob/main/tracks/02-thesis.md" target="_blank" rel="noopener" class="link-btn">Official track guide ↗</a></div></div>
+        <div class="hero-symbol" aria-hidden="true"><div class="symbol-a"></div><div class="symbol-b"></div><div class="symbol-c"></div><span>↗</span></div>
+      </section>
+      <section class="economics-section" id="economics">
+        <div class="section-head"><div><div class="kicker">01 <span> / </span> OBSERVED ECONOMICS</div><h2>Gross fees are not token value</h2></div><span class="updated">FROZEN SNAPSHOT • COMPLETE MONTHS THROUGH OCT 2026</span></div>
+        <div class="evidence-banner"><span class="evidence-dot"></span><strong>Verified third-party aggregate data loaded</strong><span>These are published DefiLlama monthly figures, not direct BigQuery results.</span><a href="https://defillama.com/protocol/near-intents" rel="noopener" target="_blank">Source ↗</a></div>
+        <div class="stat-grid protocol-stats">
+          <div class="stat"><span class="stat-label">OCTOBER 2026 INTENTS FEES</span><strong id="econ-fees">—</strong><span class="stat-note">Gross swap fees • includes affiliates</span></div>
+          <div class="stat"><span class="stat-label">OCTOBER CAPTURED REVENUE</span><strong id="econ-revenue">—</strong><span class="stat-note" id="rev-change">NEAR's reported net share</span></div>
+          <div class="stat"><span class="stat-label">REVENUE / FEES</span><strong id="econ-capture">—</strong><span class="stat-note" id="capture-change">Economic capture rate</span></div>
+          <div class="stat"><span class="stat-label">OCTOBER MONTH-END TVL</span><strong id="econ-tvl">—</strong><span class="stat-note" id="tvl-change">Verifier TVL • not unique users</span></div>
+        </div>
+        <div class="chart-card"><div class="chart-head"><div><div class="kicker">REVENUE ENGINE / USD</div><h3 id="econ-chart-title">Monthly captured revenue</h3></div><div class="chart-actions"><div class="metric-control" role="group" aria-label="Economics metric selector"><button class="econ-metric active" data-field="net_revenue_usd">Revenue</button><button class="econ-metric" data-field="gross_fees_usd">Fees</button><button class="econ-metric" data-field="month_end_tvl_usd">TVL</button><button class="econ-metric" data-field="capture_rate_pct">Capture %</button></div><div class="range-control" role="group" aria-label="Economics time range"><button class="econ-range active" data-range="6">6M</button><button class="econ-range" data-range="12">12M</button><button class="econ-range" data-range="all">ALL</button></div></div></div><div class="chart-wrap" id="econ-chart-wrap"><div class="empty-chart">Loading sourced economic data…</div></div><div class="chart-footer"><span class="legend-dot"></span><span id="econ-legend">Monthly captured Intents revenue (USD)</span><span class="chart-footer-right" id="econ-window-label">SOURCE SNAPSHOT</span></div></div>
+        <div class="research-insights"><article class="research-insight"><span>OBSERVATION 01</span><strong>Revenue ↑ while TVL ↓</strong><p id="evidence-one">A divergence is emerging across economic indicators. Quantified details load from the source snapshot.</p></article><article class="research-insight"><span>OBSERVATION 02</span><strong>Value capture needs accounting</strong><p>The fee switch and buyback funding create a plausible link to NEAR demand. Buybacks held in wallets are not the same as permanently burned tokens.</p></article><article class="research-insight risk"><span>RISK & COUNTERARGUMENT</span><strong>Security and concentration</strong><p>An approximately $3.86M HOT bridge / Intents-related exploit was investigated in September–October 2026. Gross volume and TVL alone miss operational risk.</p></article></div>
+        <div class="query-links"><strong>Reproduce the economics chart</strong><span>Download the <a href="protocol-source.csv" download>frozen monthly CSV</a> and run <code>python scripts/build_protocol.py</code>. The derived capture rate equals net captured revenue ÷ gross fees × 100. This visualizes published aggregates, not independently queried accounts.</span></div>
+        <p class="mini-note">All historical figures are publicly displayed, rounded USD estimates. No user count or token-price conclusion can be inferred from these charts. <a href="https://near.org/blog/evolving-near-tokenomics" target="_blank" rel="noopener">NEAR tokenomics ↗</a> · <a href="https://www.certik.com/blog/hot-bridge-near-intents" target="_blank" rel="noopener">Security incident ↗</a></p>
+      </section>
+      <section class="main-data">
+        <div class="section-head"><div><div class="kicker">02 <span> / </span> NETWORK PULSE</div><h2>Onchain fundamentals</h2></div><span class="updated" id="updated">Data status: awaiting inputs</span></div>
+        <div class="tx-research-banner">
+          <div><span class="kicker">BIGQUERY / VERIFIED SEPT–OCT 2026</span><h3>Network transaction activity declined while reported Intents revenue rose.</h3>
+          <p>The 61-day, first-party NEAR transaction count export shows <strong>24,004,533</strong> September transactions and <strong>22,627,935</strong> October transactions. Normalized by month length, average daily transactions fell <strong>8.8%</strong>. Intents revenue is a separately sourced protocol metric; the data do not establish direct attribution or causality.</p>
+          <a href="transactions-source.csv" download>Download actual BigQuery export ↗</a> <span class="research-split">·</span> <a href="queries/03_executed_transaction_counts.sql" target="_blank">Executed SQL ↗</a></div>
+          <div class="tx-compare"><div><span>SEPTEMBER · DAILY AVG</span><strong>800,151</strong></div><div><span>OCTOBER · DAILY AVG</span><strong>729,933</strong></div><div><span>CHANGE · DAILY AVG</span><strong class="down">-8.8%</strong></div></div>
+        </div>
+        <div class="stat-grid">
+          <div class="stat"><span class="stat-label">DAILY ACTIVE SIGNERS <span class="stat-icon">↗</span></span><strong id="stat-signers">—</strong><span class="stat-note">Accounts signing transactions ≠ humans</span></div>
+          <div class="stat"><span class="stat-label">DAILY TRANSACTIONS <span class="stat-icon">↗</span></span><strong id="stat-tx">—</strong><span class="stat-note">Onchain transactions</span></div>
+          <div class="stat"><span class="stat-label">CONTRACTS CALLED <span class="stat-icon">↗</span></span><strong id="stat-contracts">—</strong><span class="stat-note">Unique function-call receivers</span></div>
+          <div class="stat"><span class="stat-label">INTENTS 1CLICK VOLUME <span class="stat-icon">↗</span></span><strong id="stat-intents">—</strong><span class="stat-note">Public swaps only • USD</span></div>
+        </div>
+        <div class="chart-card"><div class="chart-head"><div><div class="kicker">NETWORK ACTIVITY</div><h3 id="chart-title">Daily transaction trend</h3></div><div class="chart-actions"><div class="metric-control" role="group" aria-label="Metric selector"><button class="metric" data-field="active_signers">Signers</button><button class="metric active" data-field="transactions">Transactions</button><button class="metric" data-field="active_contracts">Contracts</button><button class="metric" data-field="swap_volume_usd">Intents USD</button></div><div class="range-control" role="group" aria-label="Time range"><button data-range="30" class="range">30D</button><button data-range="90" class="range active">90D</button><button data-range="all" class="range">ALL</button></div></div></div><div class="chart-wrap" id="chart-wrap"><div class="empty-chart"><div class="empty-icon">⌁</div><strong>Awaiting verified onchain data</strong><span>Run the included BigQuery queries and load the CSV exports to activate the charts.</span></div></div><div class="chart-footer"><span class="legend-dot"></span><span id="legend">Onchain transactions per day</span><span class="chart-footer-right" id="window-label">NO DATA LOADED</span></div></div>
+      </section>
+      <section class="thesis-section" id="research"><div class="section-head"><div><div class="kicker">03 <span> / </span> RESEARCH HYPOTHESIS</div><h2>What are we testing?</h2></div></div>
+        <div class="thesis-grid"><article class="thesis-main"><span class="label-top">WORKING HYPOTHESIS</span><blockquote>Intents is generating revenue, but <b>capture efficiency and token supply mechanics matter more than gross volume alone.</b></blockquote><p>Preliminary finding: October reported higher net Intents revenue despite lower fee volume and TVL than September. This supports an improving capture thesis, not necessarily a rising token price. An independently queried NEAR network transaction series shows daily average transactions fell 8.8% from September to October; unique signers and contract breadth remain unmeasured.</p></article>
+          <div class="thesis-aside"><div class="thesis-mini"><span class="mini-icon good">+</span><div><strong>Evidence that strengthens the thesis</strong><p>Broad signer growth, wider contract activity and defensible evidence of economic value capture.</p></div></div><div class="thesis-mini"><span class="mini-icon bad">−</span><div><strong>Evidence that weakens the thesis</strong><p>A declining fee base, validator emissions, operational risk, and weak retention could outweigh improved fee capture.</p></div></div><div class="thesis-mini"><span class="mini-icon note">?</span><div><strong>What we cannot assume</strong><p>Unique wallets are not unique people. Gross volume is not revenue. Correlation is not causation.</p></div></div></div>
+        </div>
+      </section>
+      <section class="method-section" id="methods"><div class="section-head"><div><div class="kicker">04 <span> / </span> TRANSPARENCY</div><h2>Provenance & methodology</h2></div></div>
+        <div class="source-rows"><div class="source-row"><span class="source-n">00</span><div><strong>DefiLlama NEAR Intents history</strong><span>Completed-month fees, protocol revenue, holders-revenue classification and month-end TVL</span></div><a href="https://defillama.com/protocol/near-intents" target="_blank" rel="noopener">Source ↗</a><span class="source-state loaded">LOADED / ROUNDED</span></div><div class="source-row"><span class="source-n">01</span><div><strong>NEAR Public BigQuery</strong><span>61 verified daily transaction counts (Sep–Oct 2026); unique signers not yet extracted</span></div><a href="https://docs.near.org/data-infrastructure/big-query" target="_blank" rel="noopener">Documentation ↗</a><span class="source-state" id="source-transactions">NOT LOADED</span></div><div class="source-row"><span class="source-n">02</span><div><strong>NEAR Public BigQuery</strong><span>Function-call receipts and distinct receivers</span></div><a href="https://docs.near.org/data-infrastructure/big-query" target="_blank" rel="noopener">Documentation ↗</a><span class="source-state" id="source-contracts">NOT LOADED</span></div><div class="source-row"><span class="source-n">03</span><div><strong>NEAR Intents Explorer API</strong><span>Partner-authorized 1Click Swap records, if available</span></div><a href="https://docs.near-intents.org/integration/distribution-channels/1click-api/explorer/introduction" target="_blank" rel="noopener">Documentation ↗</a><span class="source-state" id="source-intents">NOT LOADED</span></div></div>
+        <div class="query-links"><strong>Audit the network query sources</strong><span><a href="queries/01_network_usage.sql" target="_blank">Signer and transaction SQL ↗</a> · <a href="queries/02_contract_activity.sql" target="_blank">Receipt and contract SQL ↗</a>. The transaction-count export was executed in BigQuery and is included for reproduction. The signer, contract and 1Click queries remain pending.</span></div>
+        <p class="disclaimer">This dashboard separates published external estimates from unobserved network metrics. There are no fabricated values. The economics charts use a manually transcribed, source-rounded snapshot; the transaction-count series comes from an executed BigQuery query. Unique signers, contract breadth, and 1Click volume have not been independently queried. All data definitions, dates and methods are in the public project files. No investment recommendation is implied.</p>
+      </section>
+      <footer>NEAR THESIS LAB <span>•</span> BUILT FOR NEAR HACKATHON 2026 <span class="footer-right">RESEARCH > NARRATIVE</span></footer>
+    </main>
+  </div>
+  <script src="app.js"></script>
+  <script src="protocol.js"></script>
+</body>
+</html>

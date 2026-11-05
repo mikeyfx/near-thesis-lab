@@ -1,0 +1,162 @@
+{
+  "source_url": "https://defillama.com/protocol/near-intents",
+  "source_note": "Displayed, rounded historical table transcribed November 5, 2026; complete UTC months to October 2026. Not live and not a direct BigQuery result.",
+  "snapshot_utc": "2026-11-05",
+  "rows": [
+    {
+      "month": "2025-05",
+      "gross_fees_usd": 96.0,
+      "net_revenue_usd": 0.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": null,
+      "capture_rate_pct": 0.0
+    },
+    {
+      "month": "2025-06",
+      "gross_fees_usd": 95437.0,
+      "net_revenue_usd": 0.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": null,
+      "capture_rate_pct": 0.0
+    },
+    {
+      "month": "2025-07",
+      "gross_fees_usd": 217997.0,
+      "net_revenue_usd": 0.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": null,
+      "capture_rate_pct": 0.0
+    },
+    {
+      "month": "2025-08",
+      "gross_fees_usd": 419519.0,
+      "net_revenue_usd": 0.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": null,
+      "capture_rate_pct": 0.0
+    },
+    {
+      "month": "2025-09",
+      "gross_fees_usd": 712949.0,
+      "net_revenue_usd": 18.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": null,
+      "capture_rate_pct": 0.0025247247699344555
+    },
+    {
+      "month": "2025-10",
+      "gross_fees_usd": 2500000.0,
+      "net_revenue_usd": 18.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": 27170000.0,
+      "capture_rate_pct": 0.00072
+    },
+    {
+      "month": "2025-11",
+      "gross_fees_usd": 7760000.0,
+      "net_revenue_usd": 768047.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": 67740000.0,
+      "capture_rate_pct": 9.897512886597939
+    },
+    {
+      "month": "2025-12",
+      "gross_fees_usd": 4120000.0,
+      "net_revenue_usd": 176629.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": 49770000.0,
+      "capture_rate_pct": 4.2871116504854365
+    },
+    {
+      "month": "2026-01",
+      "gross_fees_usd": 4410000.0,
+      "net_revenue_usd": 359240.0,
+      "reported_holders_revenue_usd": 0.0,
+      "month_end_tvl_usd": 53580000.0,
+      "capture_rate_pct": 8.146031746031746
+    },
+    {
+      "month": "2026-02",
+      "gross_fees_usd": 4130000.0,
+      "net_revenue_usd": 663127.0,
+      "reported_holders_revenue_usd": 196848.0,
+      "month_end_tvl_usd": 46880000.0,
+      "capture_rate_pct": 16.05634382566586
+    },
+    {
+      "month": "2026-03",
+      "gross_fees_usd": 3590000.0,
+      "net_revenue_usd": 563460.0,
+      "reported_holders_revenue_usd": 563460.0,
+      "month_end_tvl_usd": 57630000.0,
+      "capture_rate_pct": 15.695264623955431
+    },
+    {
+      "month": "2026-04",
+      "gross_fees_usd": 3210000.0,
+      "net_revenue_usd": 258740.0,
+      "reported_holders_revenue_usd": 258740.0,
+      "month_end_tvl_usd": 62450000.0,
+      "capture_rate_pct": 8.060436137071651
+    },
+    {
+      "month": "2026-05",
+      "gross_fees_usd": 3000000.0,
+      "net_revenue_usd": 619614.0,
+      "reported_holders_revenue_usd": 619614.0,
+      "month_end_tvl_usd": 82510000.0,
+      "capture_rate_pct": 20.6538
+    },
+    {
+      "month": "2026-06",
+      "gross_fees_usd": 3110000.0,
+      "net_revenue_usd": 619475.0,
+      "reported_holders_revenue_usd": 619475.0,
+      "month_end_tvl_usd": 78690000.0,
+      "capture_rate_pct": 19.918810289389068
+    },
+    {
+      "month": "2026-07",
+      "gross_fees_usd": 3270000.0,
+      "net_revenue_usd": 504864.0,
+      "reported_holders_revenue_usd": 504864.0,
+      "month_end_tvl_usd": 92300000.0,
+      "capture_rate_pct": 15.439266055045872
+    },
+    {
+      "month": "2026-08",
+      "gross_fees_usd": 3840000.0,
+      "net_revenue_usd": 723262.0,
+      "reported_holders_revenue_usd": 723262.0,
+      "month_end_tvl_usd": 114650000.0,
+      "capture_rate_pct": 18.834947916666668
+    },
+    {
+      "month": "2026-09",
+      "gross_fees_usd": 7330000.0,
+      "net_revenue_usd": 1840000.0,
+      "reported_holders_revenue_usd": 1840000.0,
+      "month_end_tvl_usd": 241210000.0,
+      "capture_rate_pct": 25.10231923601637
+    },
+    {
+      "month": "2026-10",
+      "gross_fees_usd": 6390000.0,
+      "net_revenue_usd": 2190000.0,
+      "reported_holders_revenue_usd": 2190000.0,
+      "month_end_tvl_usd": 204480000.0,
+      "capture_rate_pct": 34.27230046948357
+    }
+  ],
+  "findings": {
+    "oct_2026_gross_fees_usd": 6390000.0,
+    "oct_2026_revenue_usd": 2190000.0,
+    "oct_2026_tvl_usd": 204480000.0,
+    "sep_2026_capture_pct": 25.10231923601637,
+    "oct_2026_capture_pct": 34.27230046948357,
+    "revenue_mom_pct": 19.02173913043479,
+    "fees_mom_pct": -12.824010914051842,
+    "tvl_mom_pct": -15.227395215787077,
+    "holders_classification_notice": "Reported holders revenue is a buyback classification, not a burn or a cash distribution."
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "snapshot_utc": "2026-11-05T23:11:31+00:00",
+  "sources": {
+    "transactions": true,
+    "contracts": false,
+    "intents": false
+  },
+  "research_status": "Loaded CSV exports",
+  "rows": [
+    {
+      "date": "2026-09-01",
+      "active_signers": null,
+      "transactions": 670529,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-02",
+      "active_signers": null,
+      "transactions": 659622,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-03",
+      "active_signers": null,
+      "transactions": 703698,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-04",
+      "active_signers": null,
+      "transactions": 735463,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-05",
+      "active_signers": null,
+      "transactions": 674162,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-06",
+      "active_signers": null,
+      "transactions": 763172,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-07",
+      "active_signers": null,
+      "transactions": 746044,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-08",
+      "active_signers": null,
+      "transactions": 704254,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-09",
+      "active_signers": null,
+      "transactions": 772841,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-10",
+      "active_signers": null,
+      "transactions": 728736,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-11",
+      "active_signers": null,
+      "transactions": 846582,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-12",
+      "active_signers": null,
+      "transactions": 651970,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-13",
+      "active_signers": null,
+      "transactions": 626447,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-14",
+      "active_signers": null,
+      "transactions": 706600,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-15",
+      "active_signers": null,
+      "transactions": 706597,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-16",
+      "active_signers": null,
+      "transactions": 777089,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-17",
+      "active_signers": null,
+      "transactions": 840314,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-18",
+      "active_signers": null,
+      "transactions": 973388,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-19",
+      "active_signers": null,
+      "transactions": 839380,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-20",
+      "active_signers": null,
+      "transactions": 846013,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-21",
+      "active_signers": null,
+      "transactions": 871723,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-22",
+      "active_signers": null,
+      "transactions": 971959,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-23",
+      "active_signers": null,
+      "transactions": 869892,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-24",
+      "active_signers": null,
+      "transactions": 741291,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-25",
+      "active_signers": null,
+      "transactions": 715469,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-26",
+      "active_signers": null,
+      "transactions": 603143,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-27",
+      "active_signers": null,
+      "transactions": 1217209,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-28",
+      "active_signers": null,
+      "transactions": 1129793,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-29",
+      "active_signers": null,
+      "transactions": 987627,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-09-30",
+      "active_signers": null,
+      "transactions": 923526,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-01",
+      "active_signers": null,
+      "transactions": 1151492,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-02",
+      "active_signers": null,
+      "transactions": 868026,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-03",
+      "active_signers": null,
+      "transactions": 690438,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-04",
+      "active_signers": null,
+      "transactions": 839450,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-05",
+      "active_signers": null,
+      "transactions": 865681,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-06",
+      "active_signers": null,
+      "transactions": 909765,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-07",
+      "active_signers": null,
+      "transactions": 971068,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-08",
+      "active_signers": null,
+      "transactions": 1014850,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-09",
+      "active_signers": null,
+      "transactions": 680332,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-10",
+      "active_signers": null,
+      "transactions": 850344,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-11",
+      "active_signers": null,
+      "transactions": 1109584,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-12",
+      "active_signers": null,
+      "transactions": 712621,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-13",
+      "active_signers": null,
+      "transactions": 731054,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-14",
+      "active_signers": null,
+      "transactions": 767812,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-15",
+      "active_signers": null,
+      "transactions": 911980,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-16",
+      "active_signers": null,
+      "transactions": 658427,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-17",
+      "active_signers": null,
+      "transactions": 557903,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-18",
+      "active_signers": null,
+      "transactions": 569735,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-19",
+      "active_signers": null,
+      "transactions": 607019,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-20",
+      "active_signers": null,
+      "transactions": 617990,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-21",
+      "active_signers": null,
+      "transactions": 658784,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-22",
+      "active_signers": null,
+      "transactions": 547267,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-23",
+      "active_signers": null,
+      "transactions": 609236,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-24",
+      "active_signers": null,
+      "transactions": 635438,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-25",
+      "active_signers": null,
+      "transactions": 550250,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-26",
+      "active_signers": null,
+      "transactions": 573801,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-27",
+      "active_signers": null,
+      "transactions": 604320,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-28",
+      "active_signers": null,
+      "transactions": 520096,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-29",
+      "active_signers": null,
+      "transactions": 649103,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-30",
+      "active_signers": null,
+      "transactions": 691420,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    },
+    {
+      "date": "2026-10-31",
+      "active_signers": null,
+      "transactions": 502649,
+      "function_calls": null,
+      "active_contracts": null,
+      "swap_volume_usd": null,
+      "successful_swaps": null
+    }
+  ]
+}
