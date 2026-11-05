@@ -2,6 +2,8 @@
 
 **NEAR Hackathon 2026 — Investment Thesis track** · Evidence-first research project
 
+**[Open the live dashboard](https://mikeyfx.github.io/near-thesis-lab/)** · [Read the thesis](THESIS.md) · [View demo images](submission-assets/)
+
 Does growth in NEAR Intents create durable economic value for the NEAR token? We compare published revenue, fees, capture efficiency, and locked value with 61 independently queried daily NEAR mainnet transaction counts. Unique signers, contract breadth, and Intents-specific transaction attribution remain unmeasured.
 
 ## What works right now

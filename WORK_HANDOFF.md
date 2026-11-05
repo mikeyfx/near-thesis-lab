@@ -16,3 +16,12 @@ Project: `near-thesis-lab/` in this ZIP. Dashboard: `web/index.html`; 61-day exp
 
 ## Quality and provenance notes
 The repo includes executed NEAR BigQuery transaction counts for 61 days and publicly sourced monthly NEAR Intents economics data, both labeled with limitations. September daily average 800,151, October 729,933 (8.8% decline). Avoid suggesting falling NEAR transactions proves a causal change in NEAR Intents usage or NEAR token price. No additional BigQuery research is necessary before submitting; main priority is publishing.
+
+## Publication status — November 6, 2026
+
+- Public repository: https://github.com/mikeyfx/near-thesis-lab
+- Live dashboard: https://mikeyfx.github.io/near-thesis-lab/
+- All 40 original project files were uploaded and byte-checked against the public repository; the live site and interactive charts were verified. All 8 tests passed.
+- The user is publishing the X demo themselves. Ready text is in SUBMISSION.md; four chart/screenshots are in submission-assets.
+- The hackathon submission has NOT been sent. Wait for the actual public X demo permalink. Do not invent it or submit twice.
+- Leave the submission `website` honeypot empty; include the live dashboard URL in the description.

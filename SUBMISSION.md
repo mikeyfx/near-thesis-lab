@@ -7,35 +7,42 @@ Track: `Investment Thesis`
 Deadline: **2026-11-14 23:59 UTC** (12:59 AM Nigeria time on Nov 15).  
 Required fields: project name, team lead, email, team size, tracks, **NEAR wallet address**, public GitHub URL, public X demo post URL, 20–2,000 character project description, and consent to review/contact. The official API documentation identifies `website` as a spam trap: leave it empty and include the deployed dashboard link in the description and X post instead. No wallet connection is required; a NEAR account address must be entered for potential prize payout. Do not paste a secret phrase or private key anywhere.
 
-## User tasks today
+## Publication checklist
 
-- [ ] Extract the ZIP and run `python scripts/build_all.py`, then `python -m http.server 8000 --directory web`.
-- [ ] Open http://localhost:8000 and check economics dropdown, time filters, provenance links.
+- [x] Extract the ZIP and run `python scripts/build_all.py`, then `python -m http.server 8000 --directory web`.
+- [x] Verified the live dashboard, economics metric buttons, time filters, missing-data behavior, and downloadable sources.
 - [x] **One real BigQuery export collected:** 61 days of Sep–Oct 2026 NEAR mainnet transaction counts, validated and plotted. Independent unique signers, contract use, and Intents attribution are not measured. Additional SQL is optional but would strengthen the submission.
-- [ ] Create a **public** GitHub repository named `near-thesis-lab` and upload the project, preserving folder structure.
-- [ ] Enable GitHub Pages → Settings → Pages → Build and deployment → GitHub Actions. Wait for the deployment status in Actions, then visit the generated website URL. This step requires your GitHub login and cannot be performed by an offline ZIP alone.
-- [ ] Record a screen demo showing economic chart transitions and a clear explanation of what the data *does and doesn't* prove. Capture source links and note missing BigQuery data if still missing.
+- [x] Published the complete project at https://github.com/mikeyfx/near-thesis-lab and verified every uploaded file against the local source.
+- [x] Enabled GitHub Actions for Pages and verified the live dashboard: https://mikeyfx.github.io/near-thesis-lab/
+- [x] Prepared four demo images in `submission-assets/`; screenshots can accompany the hosted dashboard. A video walkthrough is optional.
 - [ ] Make a public X demo post tagging `@NEARProtocol`, using `#NEARHackathon`, attaching video/screenshots, and including GitHub and website links. Copy X URL.
 - [ ] Submit via https://near.army/ with repo + X URL and your NEAR account address. Enter actual contact info yourself. **Submit once**, then use the site's change-request option if corrections are needed.
 
-## X post — suggested draft
+## X demo post — ready to publish
 
-I built NEAR Thesis Lab for @NEARProtocol's #NEARHackathon.
+NEAR Intents captured more revenue in October while fees and TVL fell. What actually improved?
 
-Instead of assuming more Intents volume = more value for $NEAR, I tested the economics behind the narrative.
+I built NEAR Thesis Lab for @NEARProtocol’s #NEARHackathon to investigate.
 
-September → October 2026:
-• Captured Intents revenue: ~$1.84M → ~$2.19M
-• Gross fees: ~$7.33M → ~$6.39M
-• Month-end TVL: ~$241M → ~$204M
-• NEAR mainnet average daily transactions: ~800K → ~730K (−8.8%)
+September → October 2026, using DefiLlama’s published, rounded figures:
 
-So why did revenue grow while fees and TVL fell?
+• Captured revenue: $1.84M → $2.19M (+19.0%)
+• Gross fees: $7.33M → $6.39M (−12.8%)
+• Month-end TVL: $241.21M → $204.48M (−15.2%)
+• Revenue / fees: 25.1% → 34.3%
 
-I built a reproducible dashboard with a real 61-day BigQuery export to compare network transactions with fee capture, buyback mechanics, and the risks. Unique signer counts and Intents-specific attribution remain unknown.
+I also queried 61 days of NEAR mainnet transactions. Daily average activity fell 8.8% across the same months.
 
-Dashboard: [ADD REAL LIVE WEBSITE]
-Code + thesis: [ADD REAL GITHUB URL]
+Those datasets measure different things. This does not establish Intents-specific user loss or causality. Unique signers and Intents attribution remain unmeasured.
+
+My provisional take: fee capture improved, but the long-term token-value case still needs stronger adoption and supply evidence. Buybacks alone are not burns.
+
+The dashboard lets you switch metrics and time ranges. SQL, CSVs, build scripts, tests, sources and counterarguments are public.
+
+Try it: https://mikeyfx.github.io/near-thesis-lab/
+Code + thesis: https://github.com/mikeyfx/near-thesis-lab
+
+What would you test next to strengthen or challenge this thesis?
 
 ## Demo script (60–90 seconds)
 
