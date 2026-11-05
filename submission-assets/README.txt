@@ -1,0 +1,1 @@
+Use 01_onchain_transactions.png and 02_monthly_comparison.png as source-backed X evidence images. 03 and 04 show the UI from an earlier preview; live UI status may differ after the BigQuery integration. The sample X copy is in ../SUBMISSION.md.
